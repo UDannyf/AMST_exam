@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="!Ha ganado una entrada al cine¡"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/feliz" />
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="179dp"
+        android:layout_gravity="center"
+        android:src="@drawable/qr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trivia mágica"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="!Acierta 5 preguntas y gana¡"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="335dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Salir"
+        android:layout_marginTop="10dp"
+        android:onClick="salir"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Danny Ucho"/>
+
+</LinearLayout>
